@@ -1,0 +1,12 @@
+### User login and signup
+POST http://localhost:8080/signup
+content-type: application/json
+
+{
+  "email": "bob2@bob.com",
+  "password": "Password123!",
+  "first_name": "Bob",
+  "last_name": "Bobson"
+}
+
+###
